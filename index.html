@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="comment-sec" class="">
+        <img class="userpic" src="https://cdn-icons-png.flaticon.com/512/4128/4128335.png" alt="">
+                <button onclick="mostarModal()" class="start">
+                    ¿Qué estás pensando, Edith?
+                </button>
+    </div>
+
+    <div id="comentario" class="nocoment">
+
+    </div>
+
+    <section id="Nuevocoment" class="modal">
+
+        <div class="modal_container">
+            <div class="up">
+            <h1 class="Title">Crear publicación</h1>
+            <button onclick="ocultarModal()" class="xoxo">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </button>
+            </div>
+
+            <hr>
+
+            <div class="you">
+                <img class="userpic" src="https://cdn-icons-png.flaticon.com/512/4128/4128335.png" alt="">
+                <p class="username">Edith Piaf</p>
+            </div>
+
+            <div>
+                <textarea oninput="activarBoton()" placeholder="¿Qué estás pensando, Edith?" name="comment" id="type" cols="30" rows="8"></textarea>
+            </div>
+
+            <div class="button">
+                <button onclick="Comentar()" class="Offbutton" id="Publish">Publicar</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+</body>
+</html>

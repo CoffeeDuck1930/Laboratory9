@@ -1,0 +1,145 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    background-color: #111;
+}
+
+.comment-sec{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #222526;
+    justify-content: center;
+    width: 80%;
+    border-radius: 7px;
+    padding: 20px 5px 20px 5px;
+}
+
+.nocoment{
+    display: none;
+}
+
+.coment{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #222526;
+    justify-content: center;
+    width: 80%;
+    border-radius: 7px;
+    padding: 20px 5px 20px 5px;
+}
+
+.modal{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #11111193;
+}
+
+.nomodal{
+    display: none;
+}
+
+.modal_container{
+    width: 90%;
+    background-color: #222526;
+    margin: auto;
+    max-width: 650px;
+    border-radius: 20px;
+    padding: 1.5em 2.5em;
+}
+
+.xoxo{
+    background-color: #ffffff00;
+    border-style: none;
+    color: whitesmoke;
+}
+
+.fa-circle-xmark{
+    margin-left: 130px;
+    font-size: 35px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.Offbutton{
+    background-color: rgb(66, 66, 66);
+    color: whitesmoke;
+    border-style: none;
+    width: 650px;
+    height: 45px;
+    font-size: 28px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.Onbutton{
+    background-color: rgb(36, 138, 197);
+    color: whitesmoke;
+    border-style: none;
+    width: 650px;
+    height: 45px;
+    font-size: 28px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.userpic{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.username{
+    font-size: 25px;
+}
+
+.you{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#type{
+    width: 100%;
+    background-color: #222526;
+    border-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.up{
+    justify-content: right;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.start{
+    border-radius: 20px;
+    background-color:  rgb(66, 66, 66);
+    border-style: none;
+    color: rgba(245, 245, 245, 0.733);
+    width: 90%;
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;
+}
