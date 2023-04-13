@@ -1,5 +1,5 @@
 const contenedorComentarios = document.getElementById("comentario")
-const contenedorPrincipal = document.getElementById("comment-sec")
+const contenedorPrincipal = document.getElementById("showmemodal")
 const modal = document.getElementById("Nuevocoment")
 const boton = document.getElementById("Publish")
 const textarea = document.getElementById("type")
@@ -38,8 +38,8 @@ function crearPublicacion() {
     var comment = `
     <div class="comentario">
         <div class="superiorComentario">
-            <img src="pexels-mohamed-abdelghaffar-771742.jpg" alt="profilePic">
-            <p >Andrea Andrade</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/4128/4128335.png" alt="">
+            <p >Edith Piaf</p>
         </div>
         <p class="publicComment">${text}</p>
     </div>
